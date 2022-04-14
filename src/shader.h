@@ -7,6 +7,7 @@ public:
     Shader(const std::string& vertex_path, const std::string& fragment_path);
 
     void use();
+    unsigned int get_id();
 
     void set_bool(const std::string& name, bool value) const;
     void set_int(const std::string& name, int value) const;

@@ -23,6 +23,7 @@ set_property(TARGET ${PROJECT} PROPERTY CXX_STANDARD 20)
 target_include_directories(${PROJECT} PRIVATE "${LIB_FOLDER}/glm")
 target_include_directories(${PROJECT} PRIVATE "${LIB_FOLDER}/glfw/include")
 target_include_directories(${PROJECT} PRIVATE "${BUILD_LIB_FOLDER}/glad/include")
+target_include_directories(${PROJECT} PRIVATE "${LIB_FOLDER}/stb")
 
 target_link_libraries(${PROJECT} glm)
 target_link_libraries(${PROJECT} glfw)
